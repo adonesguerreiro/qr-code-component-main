@@ -21,29 +21,27 @@
 	flex-direction: column;
 	width: 320px;
 	height: 480px;
-	border-radius: 8px;
+	border-radius: 15px;
 	.qr-texts {
 		display: grid;
 		gap: 10px;
 		width: 288px;
-
 		font-size: 15px;
 		padding: 10px;
 		font-family: Outfit;
+		text-align: center;
 		h1 {
 			color: hsl(218, 44%, 22%);
 			font-weight: 700;
 		}
 		p {
 			color: hsl(220, 15%, 55%);
-			text-indent: 20px;
-			text-align-last: center;
 		}
 	}
 }
 
 img {
 	border-radius: 8px;
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 	height: 288px;
 }
